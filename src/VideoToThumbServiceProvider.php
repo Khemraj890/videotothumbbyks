@@ -19,6 +19,7 @@ class VideoToThumbServiceProvider extends ServiceProvider
         });
     }
 
+
     /**
      * Bootstrap any package services.
      *
