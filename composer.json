@@ -1,0 +1,26 @@
+{
+    "name": "ksolutions/videotothumbbyks",
+    "description": "A package to create thumbnails from videos and images for Laravel and Core PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KSolutions\\VideoToThumb\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "php-ffmpeg/php-ffmpeg": "^1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KSolutions\\VideoToThumb\\VideoToThumbServiceProvider"
+            ],
+            "aliases": {
+                "VideoToThumb": "KSolutions\\VideoToThumb\\VideoToThumbFacade"
+            }
+        }
+    }
+}
