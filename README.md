@@ -15,6 +15,7 @@ composer require ksolutions/videotothumbbyks
 Step ---2 ----
 
 sudo apt update
+
 sudo apt install ffmpeg
 
 Step ---3 ----
