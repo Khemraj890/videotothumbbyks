@@ -21,7 +21,7 @@
         "laravel/sanctum": "^2.11 || ^3.3 || ^4.0",
         "laravel/tinker": "^2.8 || ^2.9",
         "php-ffmpeg/php-ffmpeg": "^1.0"
-    },
+    }, 
     "extra": {
         "laravel": {
             "providers": [
